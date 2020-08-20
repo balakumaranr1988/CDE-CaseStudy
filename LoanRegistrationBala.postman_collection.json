@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "d7b68d41-3eca-4f6b-b5da-870566f0684d",
+		"name": "LoanRegistrationBala",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "/getallloans",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/getallloans",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"getallloans"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/getallloans",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"getallloans"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "\"<object>\""
+				}
+			]
+		},
+		{
+			"name": "/loanregistration",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/loanregistration",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"loanregistration"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "200 response",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{baseUrl}}/loanregistration",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"loanregistration"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "\"<object>\""
+				}
+			]
+		}
+	],
+	"variable": [
+		{
+			"id": "baseUrl",
+			"key": "baseUrl",
+			"value": "https://iw3ktl5h39.execute-api.us-east-1.amazonaws.com/loan",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
