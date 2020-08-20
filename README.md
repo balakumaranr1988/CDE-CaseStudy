@@ -25,4 +25,5 @@ o	CustomerUpdation – to update customer details.
 •	Configured a free tier RDS in AWS – mysql.
 •	The logs of the applications are logged in AWS cloudwatch.
 •	Sonar is configured to inspect the code qualities.
+ Added Swagger in all the applciations.
 
